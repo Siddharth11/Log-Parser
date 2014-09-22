@@ -21,5 +21,5 @@ fs.readFile('log.txt', function (err, logData) {
 
 	// Call the parse function
 	console.log(parser.parse(text));
-
+	// { A: 2, B: 14, C: 11, D: 5 }
 });
